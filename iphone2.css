@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+.black-container {
+    height: 80vh;
+    width: 300px;
+    background-color: black;
+    margin: 40px auto;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.top-circle1 {
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.top-things {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.top-circle2 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -3px;
+}
+
+.top-rectangle {
+    width: 50px;
+    height: 4px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.rectangle {
+    background: rgb(255, 0, 157);
+    height: 60vh;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.battery-percentage {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+}
+.percentage {
+    font-size: 10px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: white;
+    
+}
+.battery {
+    width: 20px;
+    height: 8px;
+    background-color: white;
+    margin-top: 4px;
+    margin-left: 5px;
+    border: 1px solid rgb(165, 28, 97);
+}
+
+.date, .phone {
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+}
+
+.time {
+    font-size: 60px;
+    margin-left: 90px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2;
+    color: white;
+    
+}
+
+.date {
+    margin-top: -30px;
+}
+.phone {
+    font-size: 30px;
+    word-spacing: 8px;
+    margin-top: 90px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+    border: 2px solid white;
+    border-radius: 25px;
+}
